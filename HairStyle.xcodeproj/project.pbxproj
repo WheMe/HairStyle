@@ -10,11 +10,14 @@
 		93166A221AB80D4E0002F5EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A211AB80D4E0002F5EB /* main.m */; };
 		93166A251AB80D4E0002F5EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A241AB80D4E0002F5EB /* AppDelegate.m */; };
 		93166A281AB80D4E0002F5EB /* HairStyle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93166A261AB80D4E0002F5EB /* HairStyle.xcdatamodeld */; };
-		93166A2B1AB80D4E0002F5EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A2A1AB80D4E0002F5EB /* ViewController.m */; };
 		93166A2E1AB80D4E0002F5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93166A2C1AB80D4E0002F5EB /* Main.storyboard */; };
 		93166A301AB80D4E0002F5EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93166A2F1AB80D4E0002F5EB /* Images.xcassets */; };
 		93166A331AB80D4E0002F5EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93166A311AB80D4E0002F5EB /* LaunchScreen.xib */; };
 		93166A3F1AB80D4E0002F5EB /* HairStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A3E1AB80D4E0002F5EB /* HairStyleTests.m */; };
+		93166A4E1AB80DD50002F5EB /* SGBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A4B1AB80DD50002F5EB /* SGBaseRequest.m */; };
+		93166A4F1AB80DD50002F5EB /* SGHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A4D1AB80DD50002F5EB /* SGHttpClient.m */; };
+		93166A531AB8131F0002F5EB /* ZSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93166A521AB8131F0002F5EB /* ZSBaseViewController.m */; };
+		A04E5618EB1EA1ECE9063D02 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B9491925A32D78295FAB14 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58B9491925A32D78295FAB14 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93166A1C1AB80D4E0002F5EB /* HairStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93166A201AB80D4E0002F5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93166A211AB80D4E0002F5EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93166A231AB80D4E0002F5EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93166A241AB80D4E0002F5EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		93166A271AB80D4E0002F5EB /* HairStyle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HairStyle.xcdatamodel; sourceTree = "<group>"; };
-		93166A291AB80D4E0002F5EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		93166A2A1AB80D4E0002F5EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93166A2D1AB80D4E0002F5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93166A2F1AB80D4E0002F5EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		93166A321AB80D4E0002F5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		93166A381AB80D4E0002F5EB /* HairStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93166A3D1AB80D4E0002F5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93166A3E1AB80D4E0002F5EB /* HairStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HairStyleTests.m; sourceTree = "<group>"; };
+		93166A4A1AB80DD50002F5EB /* SGBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBaseRequest.h; sourceTree = "<group>"; };
+		93166A4B1AB80DD50002F5EB /* SGBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBaseRequest.m; sourceTree = "<group>"; };
+		93166A4C1AB80DD50002F5EB /* SGHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHttpClient.h; sourceTree = "<group>"; };
+		93166A4D1AB80DD50002F5EB /* SGHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHttpClient.m; sourceTree = "<group>"; };
+		93166A511AB8131F0002F5EB /* ZSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSBaseViewController.h; sourceTree = "<group>"; };
+		93166A521AB8131F0002F5EB /* ZSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSBaseViewController.m; sourceTree = "<group>"; };
+		CF33F65416732819B8AF95B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F26780AB231A156D517B6D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04E5618EB1EA1ECE9063D02 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		079A92B1D082023449DBD385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF33F65416732819B8AF95B0 /* Pods.debug.xcconfig */,
+				D5F26780AB231A156D517B6D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FD67D6CB31B262F78F27E4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B9491925A32D78295FAB14 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93166A131AB80D4E0002F5EB = {
 			isa = PBXGroup;
 			children = (
 				93166A1E1AB80D4E0002F5EB /* HairStyle */,
 				93166A3B1AB80D4E0002F5EB /* HairStyleTests */,
 				93166A1D1AB80D4E0002F5EB /* Products */,
+				079A92B1D082023449DBD385 /* Pods */,
+				3FD67D6CB31B262F78F27E4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +113,10 @@
 		93166A1E1AB80D4E0002F5EB /* HairStyle */ = {
 			isa = PBXGroup;
 			children = (
+				93166A501AB812C00002F5EB /* Sections */,
+				93166A481AB80DA20002F5EB /* Common */,
 				93166A231AB80D4E0002F5EB /* AppDelegate.h */,
 				93166A241AB80D4E0002F5EB /* AppDelegate.m */,
-				93166A291AB80D4E0002F5EB /* ViewController.h */,
-				93166A2A1AB80D4E0002F5EB /* ViewController.m */,
 				93166A2C1AB80D4E0002F5EB /* Main.storyboard */,
 				93166A2F1AB80D4E0002F5EB /* Images.xcassets */,
 				93166A311AB80D4E0002F5EB /* LaunchScreen.xib */,
@@ -122,6 +152,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		93166A481AB80DA20002F5EB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				93166A491AB80DBF0002F5EB /* Core */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		93166A491AB80DBF0002F5EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93166A4A1AB80DD50002F5EB /* SGBaseRequest.h */,
+				93166A4B1AB80DD50002F5EB /* SGBaseRequest.m */,
+				93166A4C1AB80DD50002F5EB /* SGHttpClient.h */,
+				93166A4D1AB80DD50002F5EB /* SGHttpClient.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		93166A501AB812C00002F5EB /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				93166A541AB813260002F5EB /* Base */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		93166A541AB813260002F5EB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				93166A511AB8131F0002F5EB /* ZSBaseViewController.h */,
+				93166A521AB8131F0002F5EB /* ZSBaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93166A421AB80D4E0002F5EB /* Build configuration list for PBXNativeTarget "HairStyle" */;
 			buildPhases = (
+				A48E067CDE0A0EA8717228BB /* Check Pods Manifest.lock */,
 				93166A181AB80D4E0002F5EB /* Sources */,
 				93166A191AB80D4E0002F5EB /* Frameworks */,
 				93166A1A1AB80D4E0002F5EB /* Resources */,
+				D43999234738EB1A263F019C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +285,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A48E067CDE0A0EA8717228BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D43999234738EB1A263F019C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93166A181AB80D4E0002F5EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93166A4F1AB80DD50002F5EB /* SGHttpClient.m in Sources */,
 				93166A251AB80D4E0002F5EB /* AppDelegate.m in Sources */,
+				93166A531AB8131F0002F5EB /* ZSBaseViewController.m in Sources */,
+				93166A4E1AB80DD50002F5EB /* SGBaseRequest.m in Sources */,
 				93166A281AB80D4E0002F5EB /* HairStyle.xcdatamodeld in Sources */,
-				93166A2B1AB80D4E0002F5EB /* ViewController.m in Sources */,
 				93166A221AB80D4E0002F5EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -345,9 +448,11 @@
 		};
 		93166A431AB80D4E0002F5EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF33F65416732819B8AF95B0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HairStyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +460,11 @@
 		};
 		93166A441AB80D4E0002F5EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F26780AB231A156D517B6D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HairStyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +523,7 @@
 				93166A441AB80D4E0002F5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93166A451AB80D4E0002F5EB /* Build configuration list for PBXNativeTarget "HairStyleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +532,7 @@
 				93166A471AB80D4E0002F5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

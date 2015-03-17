@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZSBaseViewController.h
 //  HairStyle
 //
 //  Created by 孙苏军 on 15/3/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZSBaseViewController : UIViewController
 
 @end
-

@@ -1,0 +1,8 @@
+platform :ios,'7.0'
+pod 'Reachability'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Mantle'
+pod 'SVPullToRefresh'
+pod 'Base64'
+pod 'MBProgressHUD', '~> 0.8'
